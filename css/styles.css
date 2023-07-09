@@ -1,0 +1,277 @@
+body {
+  background-color: black;
+  color: green;
+  padding: 10px;
+  font-size: 20px;
+  width: 80%;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+table,
+tr {
+  width: 100%;
+  padding: 20px;
+}
+
+.td {
+  width: 33%;
+  height: 100px;
+  padding: 10px;
+  background: #2f4c83;
+  border-style: solid;
+}
+
+.controls {
+  text-align: right;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.Large {
+  font-size: 30px;
+}
+
+.button1 {
+  font-size: 30px;
+  color: #2f4c83;
+  background-color: white;
+  text-decoration: none;
+}
+
+.button2 {
+  font-size: 20px;
+  width: 100px;
+}
+
+.form {
+  margin: auto;
+  width: 80%;
+  padding: 15px;
+  height: 100%;
+}
+
+.size {
+  columns: 200;
+  font-size: 30px;
+  width: 100px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel__item {
+  height: 600px;
+  background: grey;
+  padding: 1em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: #ffffff;
+  display: none;
+}
+
+.carousel__item--selected {
+  display: block;
+}
+
+.carousel__nav {
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__button {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel__button--selected {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.frm {
+  border: solid gray 1px;
+  width: 25%;
+  border-radius: 2px;
+  margin: 120px auto;
+  background: white;
+  padding: 50px;
+}
+.btn {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-left: 70%;
+}
+
+.banner {
+  position: absolute;
+  background-color: #ffffff;
+  height: 1024px;
+  width: 1440px;
+  padding: 0px;
+}
+.rectangle1 {
+  background-color: #00af5b;
+  height: 181px;
+  width: 1489px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  top: -8px;
+  left: -14px;
+}
+.themovieshack {
+  color: #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 48px;
+  font-family: Anaheim;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  left: 400px;
+  top: 45px;
+  position: absolute;
+  width: 640px;
+}
+.searchbar {
+  background-color: #ffffff;
+  height: 27px;
+  width: 177px;
+  border-radius: 10px;
+  padding-left: 9px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 107px;
+  left: 1150px;
+}
+.search2 {
+  align-self: flex-start;
+  left: 9px;
+  top: 0.82px;
+  position: absolute;
+  width: 29.125843048095703px;
+  height: 25.3583984375px;
+}
+.ellipse1 {
+  height: 18px;
+  width: 18px;
+  transform: rotate(-40deg);
+  top: 0.82px;
+  left: 24.33px;
+  position: absolute;
+  border-radius: 50%;
+}
+.line1 {
+  height: 7.920718669891357px;
+  width: 7.055718898773193px;
+  width: 7.055718898773193px;
+  height: 7.920718669891357px;
+  left: 19.6px;
+  top: 20.46px;
+  width: 7.055718898773193px;
+  height: 7.920718669891357px;
+  position: absolute;
+}
+.search3 {
+  color: #000000;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 14px;
+  font-family: Roboto;
+  align-self: flex-start;
+  left: 38.12px;
+  top: 9px;
+  position: absolute;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  width: 44px;
+  display: flex;
+}
+.hom,
+profile.logout {
+  width: 295px;
+  height: 30px;
+  top: 62px;
+  left: 1084px;
+  position: absolute;
+}
+.home {
+  color: #000000;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 20px;
+  font-family: Roboto;
+  left: 1084px;
+  top: 62px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+}
+.home2 {
+  color: #000000;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 20px;
+  font-family: Roboto;
+  left: 1084px;
+  top: 62px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+}
+.myprofile {
+  color: #000000;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 20px;
+  font-family: Roboto;
+  left: 1179px;
+  top: 62px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+}
+.logout2 {
+  color: #000000;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 20px;
+  font-family: Roboto;
+  left: 1279px;
+  top: 62px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+}
